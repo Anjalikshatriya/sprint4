@@ -1,18 +1,8 @@
 name: terraform apply
 
 
-
 on:
   workflow_dispatch:
-<<<<<<< HEAD
-  #push:
-  #branches: [ "main" ]
-=======
-#   push: 
-   
-#    branches: ["main"]
->>>>>>> origin
-
 
 
 env:
