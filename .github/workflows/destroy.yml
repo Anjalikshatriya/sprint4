@@ -34,7 +34,7 @@ jobs:
 
       run:
 
-        working-directory: ./S3_bucket
+        working-directory: ./module
 
 
 
