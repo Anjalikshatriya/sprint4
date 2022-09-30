@@ -72,11 +72,11 @@ jobs:
 
      
 
-      - name: terraform format
+      # - name: terraform format
 
-        run:
+      #   run:
 
-          terraform fmt
+      #     terraform fmt
 
      
 
