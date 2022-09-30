@@ -49,7 +49,7 @@ jobs:
       
       - name: terraform init
         run:
-          terraform init -backend-con="bucket=$anjalibackend" -backend-con="key=$terra.tfstate" -backend-con="anjalibackendtb"
+          terraform init -backend-config="bucket=$anjalibackend" -backend-config="key=$terra.tfstate" -backend-config="anjalibackendtb"
 
 
       - name: terraform validate
