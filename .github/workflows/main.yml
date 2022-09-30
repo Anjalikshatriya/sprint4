@@ -88,11 +88,11 @@ jobs:
 
 
 
-      - name: terraform validate
+      # - name: terraform validate
 
-        run:
+      #   run:
 
-          terraform validate
+      #     terraform validate
 
 
 
