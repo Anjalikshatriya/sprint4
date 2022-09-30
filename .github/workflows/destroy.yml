@@ -48,15 +48,15 @@ jobs:
           terraform init -backend-config="bucket=$anjalibackend" -backend-config="key=$terra.tfstate" -backend-config="anjalibackendtb"
 
 
-      - name: terraform validate
-        run:
-          terraform validate
+      # - name: terraform validate
+      #   run:
+      #     terraform validate
 
 
 
-      - name: terraform plan
-        run:
-          terraform plan
+      # - name: terraform plan
+      #   run:
+      #     terraform plan
 
 
 
