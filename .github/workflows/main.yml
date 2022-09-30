@@ -64,6 +64,6 @@ jobs:
 
 
 
-      - name: terraform apply
-        run:
-          terraform apply -auto-approve
+      # - name: terraform apply
+      #   run:
+      #     terraform apply -auto-approve
