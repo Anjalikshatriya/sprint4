@@ -1,6 +1,6 @@
 module "s3_bucket" {
   source = "../"
-  bucket_names = var.bucket_name #["anu1", "anu2", "anu3"]
+  bucket_names = var.bucket_name
   #acl = "private"
 }
 
